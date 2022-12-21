@@ -23,3 +23,7 @@ This software will customers find the right policies from a large pool of option
 
 **Machine Learning:** RandomForestClassifier, StandardScaler, Pipeline, GridSearchCV
 
+**Frontend:** HTML, CSS
+
+**Backend:** Flask
+
