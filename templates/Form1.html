@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <title>
+        User Data Entry Form
+    </title>
+</head>
+
+
+<body class="form-body">
+
+    <form action="" method="POST">
+        {{form.hidden_tag()}}
+
+        <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="container">
+            <div class="form-heading">
+                <h1>Insurance Agent Assistant</h1>
+                <p>Please fill in this form to Sign Up.</p>
+            </div>
+
+            <div class="form-section">
+                <label for="fname"><h3>First Name</h3></label>
+                <input type="text" placeholder="Enter your first name" name="fname" id="fname" required>
+            </div>
+
+            <div class="form-section">
+                <label for="lname"><h3>Last Name</h3></label>
+                <input type="text" placeholder="Enter your last name" name="lname" id="lname" required>
+            </div>
+
+            <div class="form-section">
+                <label for="income"><h3>Your Yearly Income:</h3></label>
+                <input type="number" id="income" name="income">
+            </div>
+
+            <div class="form-section">
+                <label for="phone"><h3>Enter your phone number:</h3></label>
+                <input type="tel" id="phone" name="phone" maxlength="10">
+            </div>
+
+            <div class="form-section">
+                <label for="Age"><h3>Age:</h3></label>
+                <input type="number" id="age" name="age" autofocus maxlength="2" min="18">
+            </div>
+            
+            <div class="form-section">
+                <h3>Select your Gender</h3>
+                
+                <label class="label-rad" for="Male">Male
+                    <input type="radio" id="Male" name="gender" value=0>
+                    <span class="checkmark"></span>
+                </label>
+                
+                <label class="label-rad" for="Female">Female
+                    <input type="radio" id="Female" name="gender" value=1>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="form-section">
+                <label for="Dependents"><h3>Number of Dependents:</h3></label>
+                <input type="number" id="Dependents" name="Dependents" autofocus>
+            </div>
+
+            <div class="form-section">
+                <h3>Choose Your Residence:</h3>
+                
+                <label class="label-rad" for="metro">Metro
+                    <input type="radio" id="metro" name="residence" value=1>
+                    <span class="checkmark"></span>
+                </label>
+                
+                <label class="label-rad" for="nonmetro">Non-Metro
+                    <input type="radio" id="nonmetro" name="residence" value=0>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="form-section">
+                <h3>Do you have any of the following health issues?</h3>
+
+                <label class="label-ch" for="diabetes">Diabetes?
+                    <input type="checkbox" id="diabetes" name="choice[]" value="diabetes">
+                    <span class="checkname"></span>
+                </label>
+
+                <label class="label-ch" for="heart">Heart-related Problem?
+                    <input type="checkbox" id="heart" name="choice[]" value="heart">
+                    <span class="checkname"></span>
+                </label>
+
+                <label class="label-ch" for="bp">High or Low Blood Pressure?
+                    <input type="checkbox" id="bp" name="choice[]" value="bp">
+                    <span class="checkname"></span>
+                </label>
+                <label class="label-ch" for="covid">Suffered from Covid-19?
+                    <input type="checkbox" id="covid" name="choice[]" value="covid">
+                    <span class="checkname"></span>
+                </label>
+                <label class="label-ch" for="Surgery">Did you have any surgery?
+                    <input type="checkbox" id="Surgery" name="choice[]" value="Surgery">
+                    <span class="checkname"></span>
+                </label>
+                <label class="label-ch" for="other">Any other health issues:
+                    <input type="checkbox" id="other" name="choice[]" value="other">
+                    <span class="checkname"></span>
+                </label>
+            </div>
+
+            <div class="set-reset">
+                <input type="submit" name="signup" value="Show me the best policies!">
+                <input type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+
+</body>
+
+
+</html>

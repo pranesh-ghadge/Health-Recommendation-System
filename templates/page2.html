@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+
+  <title>
+    Prediction
+  </title>
+</head>
+
+<body class="form-body">
+
+  <div class="container">
+
+    <div class="form-heading">
+      <h2>The Recommended Policies are:</h2>
+    </div>
+
+    <div class="form-section">
+      <h2>#1: {{ pred1 }}</h2>
+      <div class="desc_section">
+        <h3>Insurance Name : {{pName1}}</h3>
+        <h3>Insurer : {{pIns1}}</h3>
+        <h3>Cover(lac) : {{pCov1}}</h3>
+        <h3>Premium(annual) : {{pPrem1}}</h3>
+        <h3>Maternity : {{pMat1}}</h3>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>#2: {{ pred2 }}</h2>
+      <div class="desc_section">
+        <h3>Insurance Name : {{pName2}}</h3>
+        <h3>Insurer : {{pIns2}}</h3>
+        <h3>Cover(lac) : {{pCov2}}</h3>
+        <h3>Premium(annual) : {{pPrem2}}</h3>
+        <h3>Maternity : {{pMat2}}</h3>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>#3: {{ pred3 }}</h2>
+      <div class="desc_section">
+        <h3>Insurance Name : {{pName3}}</h3>
+        <h3>Insurer : {{pIns3}}</h3>
+        <h3>Cover(lac) : {{pCov3}}</h3>
+        <h3>Premium(annual) : {{pPrem3}}</h3>
+        <h3>Maternity : {{pMat3}}</h3>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- <p>The predicted policies are {{ pred1 }}, {{ pred2 }}, {{ pred3 }}.</p> -->
+
+
+
+</body>
+
+</html>

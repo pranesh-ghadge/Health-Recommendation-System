@@ -1,0 +1,11 @@
+﻿LeadId,Age,Gender,Income,PolicyName
+1,22,Male,500000,Policy_2
+2,35,Female,600000,Policy_16
+3,25,Male,900000,Policy_5
+4,39,Female,30000,Policy_10
+5,21,Male,200000,Policy_2
+6,29,Female,600000,Policy_15
+7,24,Male,1000000,Policy_7
+8,58,Female,5000000,Policy_8
+9,28,Male,800000,Policy_5
+10,27,Male,700000,Policy_3

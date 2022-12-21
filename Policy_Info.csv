@@ -1,0 +1,17 @@
+﻿PolicyName,Name,Insurer,Cover(lac),Premium(annual),Pre-Existing Waiting Period,ClaimSettlementRatio,Maternity,OPD Benefits
+Policy_1,Activ Assure – Diamond,AdityaBirla,5,5197,4,70.81,No,No
+Policy_2,Reassure,NivaBupa,5,8102,2,90.7,No,Yes
+Policy_3,Health Guard Gold,BajajAllianz,10,9083,3,92.24,No,No
+Policy_4,Optima Secure,HDFC Ergo,20,15340,3,94.7,No,Yes
+Policy_5,Young Star Silver,StarHealth,20,9427,1,85.47,No,No
+Policy_6,Shield,MagmaHDI,50,13938,3,95.17,No,No
+Policy_7,Lifetime India,Manipal Cigna,75,12626,2,89.43,No,Yes
+Policy_8,Premium,MagmaHDI,100,13233,1,95.17,No,No
+Policy_9,Care Advantage,CareHealth,100,14608,1,95.22,No,Yes
+Policy_10,Care Freedom,CareHealth,5,9304,4,86.35,Yes,No
+Policy_11,Health Premia Silver,NivaBupa,5,10744,2,90.7,Yes,Yes
+Policy_12,Activ Assure,AdityaBirla,10,11012,3,89.56,Yes,No
+Policy_13,Health Premia Gold,NivaBupa,20,12812,2,90.05,Yes,Yes
+Policy_14,Health Shield,BajajAllianz,40,14506,1,92.34,Yes,Yes
+Policy_15,NCB Super Premium,CareHealth,60,17324,1,95,Yes,No
+Policy_16,Star Platinum,StarHealth,100,36121,2,96.55,Yes,Yes
